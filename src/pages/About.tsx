@@ -4,7 +4,7 @@ import Button from '../components/Button';
 import { Link } from 'react-router-dom';
 import {  Target, Eye, Award } from 'lucide-react';
 import homeHero from '../assets/About.jfif';
-import homeHero2 from '../assets/about3.jfif';
+import homeHero2 from '../assets/About3.jfif';
 
 
 import { useScroll, useTransform } from "framer-motion";
