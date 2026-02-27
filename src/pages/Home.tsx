@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Section from '../components/Section';
 import Button from '../components/Button';
 import homeHero from '../assets/HomePage.jfif';;
-import HomeImage2 from '../assets/About2.jfif';;
+import HomeImage2 from '../assets/about2.jfif';;
 const featuredServices = [
   {
     title: 'Bespoke Suits',
