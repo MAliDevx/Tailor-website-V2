@@ -3,7 +3,7 @@ import Section from '../components/Section';
 import Button from '../components/Button';
 import { Link } from 'react-router-dom';
 import { Scissors, Ruler, Award, Briefcase, Heart, Zap, Check } from 'lucide-react';
-import  servicesHero from '../assets/image1.png';
+import  servicesHero from '../assets/Image1.png';
 
 import service1 from '../assets/Image8.jfif';
 import service2 from '../assets/Images3.jfif';
