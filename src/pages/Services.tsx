@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Scissors, Ruler, Award, Briefcase, Heart, Zap, Check } from 'lucide-react';
 import  servicesHero from '../assets/Image1.png';
 
-import service1 from '../assets/Image8.jfif';
+import service1 from '../assets/image8.jfif';
 import service2 from '../assets/Images3.jfif';
 import service3 from '../assets/Image4.jfif';
 import service4 from '../assets/Image1.png';
