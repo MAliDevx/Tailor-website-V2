@@ -5,7 +5,7 @@ import Button from '../components/Button';
 import { Mail, Phone, MapPin, Clock, Instagram, Facebook, Twitter, Send } from 'lucide-react';
 import {  useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import contactHero from '../assets/Contact-form.webp';;
+import contactHero from '../assets/Contact-form.webp';
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
