@@ -224,7 +224,10 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-serif mb-1">Our Studio</h4>
-                    <p className="text-ink/60">123 Savile Row, Mayfair, London, W1S 3PR</p>
+                    <p className="text-ink/60">MAHA KALI ENTERPRISES
+2-95/1, Keerthi Nagar, KUDA Road No.2
+Beside Govt High School
+Suryapet, Telangana 508213</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -233,7 +236,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-serif mb-1">Phone</h4>
-                    <p className="text-ink/60">+44 20 7123 4567</p>
+                    <p className="text-ink/60">+91 9441524214</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -242,7 +245,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-lg font-serif mb-1">Email</h4>
-                    <p className="text-ink/60">hello@taylorstudio.com</p>
+                    <p className="text-ink/60">anclorfashionhub25@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -316,7 +319,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       className="w-full bg-white border border-ink/10 rounded-xl px-4 py-3 focus:outline-none focus:border-gold transition-colors"
-                      placeholder="john@example.com"
+                      placeholder="anclorfashionhub25@gmail.com"
                     />
                   </div>
                 </div>
@@ -330,7 +333,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full bg-white border border-ink/10 rounded-xl px-4 py-3 focus:outline-none focus:border-gold transition-colors"
-                      placeholder="+44 7123 456789"
+                      placeholder="+91 9441524214"
                     />
                   </div>
                   <div className="space-y-2">
@@ -379,20 +382,19 @@ export default function Contact() {
       {/* Map Placeholder */}
 <section className="px-6 pb-24">
   <div className="max-w-7xl mx-auto">
-    <div className="h-[500px] rounded-[3rem] overflow-hidden shadow-2xl">
+    <div className=" overflow-hidden">
       
-  <iframe
-src="https://www.google.com/maps?q=India&output=embed"
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30500.310424715208!2d79.60255489441717!3d17.143981754688507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a34dbb936420209%3A0xfbf6b844cdbdb717!2sSuryapet%2C%20Telangana%2C%20India!5e0!3m2!1sen!2s!4v1772689727997!5m2!1sen!2s"
   width="100%"
-  height="100%"
-  style={{ border: 0 }}
+  height="450"
+  style={{border:0}}
   allowFullScreen
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
   title="India Map"
-  className="rounded-[3rem]"
-></iframe>
-
+  className="rounded-[3rem]">
+</iframe>
     </div>
   </div>
 </section>

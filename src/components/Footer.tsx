@@ -61,15 +61,18 @@ export default function Footer() {
           <ul className="space-y-4 text-sm">
             <li className="flex items-start gap-3">
               <MapPin size={18} className="text-gold shrink-0" />
-              <span>123 Savile Row, Mayfair<br />London, W1S 3PR</span>
+              <span>MAHA KALI ENTERPRISES
+2-95/1, Keerthi Nagar, KUDA Road No.2
+Beside Govt High School
+Suryapet, Telangana 508213</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone size={18} className="text-gold shrink-0" />
-              <span>+44 20 7123 4567</span>
+              <span>+91 9441524214</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-gold shrink-0" />
-              <span>hello@taylorstudio.com</span>
+              <span>anclorfashionhub25@gmail.com</span>
             </li>
           </ul>
         </div>
