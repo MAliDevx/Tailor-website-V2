@@ -62,14 +62,13 @@ export default function App() {
           maxWidth: "540px",
         }}
       >
-        <h1 style={{ color: "#dc3545", marginBottom: "20px" }}>
-          Website Suspended
+        <h1 style={{ color: "#dc3545", marginBottom: "20px",  fontSize: "26px",}}>
+        Scam Alert  Website Closed
         </h1>
 
         <p style={{ fontSize: "16px", color: "#333", marginBottom: "15px" }}>
           This website has been temporarily suspended due to non-payment by
-           <b> Dunga Technology.</b>
-        </p>
+<b>Before starting work with Dunga Technology, check their reviews and ask for their website and LinkedIn profile. They do not have these because they are scammers. They have been scamming both developers and clients.</b>        </p>
 
         <p style={{ fontSize: "15px", color: "#555", marginBottom: "10px" }}>
           To restore access or for further information, please contact:
