@@ -38,47 +38,74 @@
 //   );
 // }
 
-
+import CEO from "./assets/CEO.jpeg";
 export default function App() {
   return (
-<>
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#f8f9fa",
-        fontFamily: "Arial, sans-serif",
-      }}
-    >
+    <>
       <div
         style={{
-          textAlign: "center",
-          padding: "40px",
-          backgroundColor: "#ffffff",
-          borderRadius: "10px",
-          boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
-          maxWidth: "540px",
+          
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "#f8f9fa",
+          fontFamily: "Arial, sans-serif",
         }}
       >
-        <h1 style={{ color: "#dc3545", marginBottom: "20px",  fontSize: "26px",}}>
-        Scam Alert  Website Closed
-        </h1>
+        <div
+          style={{
+            textAlign: "center",
+            padding: "40px",
+            backgroundColor: "#ffffff",
+            borderRadius: "10px",
+            boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+            maxWidth: "540px",
+          }}
+        >
+          {/* Image */}
+    
 
-        <p style={{ fontSize: "16px", color: "#333", marginBottom: "15px" }}>
-          This website has been temporarily suspended due to non-payment by
-<b>Before starting work with Dunga Technology, check their reviews and ask for their website and LinkedIn profile. They do not have these because they are scammers. They have been scamming both developers and clients.</b>        </p>
+          <h1
+            style={{
+              color: "#dc3545",
+              marginBottom: "20px",
+              fontSize: "26px",
+            }}
+          >
+            Scam Alert Website Closed
+          </h1>
 
-        <p style={{ fontSize: "15px", color: "#555", marginBottom: "10px" }}>
-          To restore access or for further information, please contact:
-        </p>
+          <p style={{ fontSize: "16px", color: "#333", marginBottom: "15px" }}>
+            This website has been temporarily suspended due to non-payment by Dunga Technology.
+            <b>
+              {" "}
+              Before starting work with Dunga Technology, check their reviews
+              and ask for their website and LinkedIn profile. They do not have
+              these because they are scammers. They have been scamming both
+              developers and clients.
+            </b>
+          </p>
 
-        <p style={{ fontSize: "16px", fontWeight: "bold", color: "#000" }}>
-          m13ali1000@gmail.com
-        </p>
+          <p style={{ fontSize: "15px", color: "#555", marginBottom: "10px" }}>
+            To restore access or for further information, please contact:
+          </p>
+
+          <p
+            style={{
+              fontSize: "16px",
+              fontWeight: "bold",
+              color: "#000",
+            }}
+          >
+            m13ali1000@gmail.com
+          </p>
+                <img
+            src={CEO}
+            alt="CEO"
+           
+          />
+        </div>
       </div>
-    </div>
-</>
+    </>
   );
 }
