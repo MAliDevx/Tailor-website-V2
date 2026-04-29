@@ -42,6 +42,44 @@
 export default function App() {
   return (
 <>
+    <div
+      style={{
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#f8f9fa",
+        fontFamily: "Arial, sans-serif",
+      }}
+    >
+      <div
+        style={{
+          textAlign: "center",
+          padding: "40px",
+          backgroundColor: "#ffffff",
+          borderRadius: "10px",
+          boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+          maxWidth: "540px",
+        }}
+      >
+        <h1 style={{ color: "#dc3545", marginBottom: "20px" }}>
+          Website Suspended
+        </h1>
+
+        <p style={{ fontSize: "16px", color: "#333", marginBottom: "15px" }}>
+          This website has been temporarily suspended due to non-payment by
+           <b> Dunga Technology.</b>
+        </p>
+
+        <p style={{ fontSize: "15px", color: "#555", marginBottom: "10px" }}>
+          To restore access or for further information, please contact:
+        </p>
+
+        <p style={{ fontSize: "16px", fontWeight: "bold", color: "#000" }}>
+          m13ali1000@gmail.com
+        </p>
+      </div>
+    </div>
 </>
   );
 }
