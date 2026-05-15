@@ -39,9 +39,9 @@
 // }
 
 import CEO from "./assets/CEO.jpeg";
-import Before from "./assets/Before.png";
+import Before from "./assets/Before.PNG";
 import HisPromise from "./assets/HisPromise.png";
-import After from "./assets/after1.png";
+import After from "./assets/after1.PNG";
 
 function Section({ title, children, dark }) {
   return (
